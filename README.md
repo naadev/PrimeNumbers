@@ -3,13 +3,16 @@ Comparisson between Unit Tests using Specflow (BDD tool) &amp; xUnit traditional
 
 This repository hosts a demo intended to compare how to execute Test Driven Development following two different approaches:
 
+1) Name of approach 1
+2) Name of approach 2
+
 ## Composition
 This project has been built on C# (.NET 5)  using Visual Studio, hence the solution file (.sln). 
 
 There is only a single project, inside folder PrimeNumbers. Users using Visual Studio Code or other IDE can start from here
 
 * [PrimeNumber.cs ](https://github.com/naadev/PrimeNumbers/blob/main/PrimeNumbers/PrimeNumber.cs)
-This is a static class with a single operation. Commented there appear the different steps given dring test development. 
+This is a static class with a single operation. Commented there appear the different steps given during test development. 
 
 ```C#
         static public bool IsPrime(int number)
@@ -27,7 +30,7 @@ This is a static class with a single operation. Commented there appear the diffe
 ### [Gherkin Unit Tests folder](https://github.com/naadev/PrimeNumbers/tree/main/PrimeNumbers/GherkinUnitTests)
 These are the Unit Tests created using Gherkin.
 .* [PrimeNumbers.feature](https://github.com/naadev/PrimeNumbers/blob/main/PrimeNumbers/GherkinUnitTests/PrimeNumbers.feature)
-This is the feature file. In order to add a new 
+This is the feature file. 
 ```Gherkin
 Feature: PrimeNumbers
 	As a SW Developer,
@@ -89,11 +92,11 @@ Examples:
 ```
 
 .* [PrimeNumberSteps.cs](https://github.com/naadev/PrimeNumbers/blob/main/PrimeNumbers/GherkinUnitTests/PrimeNumberSteps.cs)
-These are the step file. Here we link gherkin steps with specific technology. In this case we're working on C# hence we use Specflow to support Gherkin syntax and step binding
+These is the steps file. Here we link Gherkin steps with specific technology. In this case we are working on C# hence we use Specflow to support Gherkin syntax and step binding
 
 #### [Traditional Unit Test ](https://github.com/naadev/PrimeNumbers/tree/main/PrimeNumbers/TraditionalUnitTests)
 .* [PrimeNumberTests.cs](https://github.com/naadev/PrimeNumbers/blob/main/PrimeNumbers/TraditionalUnitTests/PrimeNumberTests.cs)
-This file hostes the same Unit Tests for TDD but created using a traditional way. 
+This file  describes the same Unit Tests for TDD but created using a traditional way. 
 
 In this case, in order to build a new test, we need to add a C# block. In this example, the name of the tests is self-descriptive:
 ```C#
