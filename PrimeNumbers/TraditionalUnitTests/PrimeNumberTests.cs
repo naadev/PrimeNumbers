@@ -43,12 +43,12 @@ namespace PrimeNumbers
         [Fact]
         public void _09_is_not_prime()
         {
-            Assert.False(PrimeNumber.IsPrime(8));
+            Assert.False(PrimeNumber.IsPrime(9));
         }
         [Fact]
         public void _10_is_not_prime()
         {
-            Assert.False(PrimeNumber.IsPrime(8));
+            Assert.False(PrimeNumber.IsPrime(10));
         }
         [Fact]
         public void _11_is_prime()
