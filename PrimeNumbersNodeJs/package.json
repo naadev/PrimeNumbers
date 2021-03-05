@@ -1,0 +1,19 @@
+{
+  "name": "prime-numbers-node-js",
+  "version": "0.0.0",
+  "description": "PrimeNumbersNodeJs",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "test": "node node_modules/cucumber/bin/cucumber-js -f json:test/report/cucumber_report.json",
+    "report": "node index.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "puppeteer": "^3.0.4"
+  }
+}

@@ -24,7 +24,7 @@ namespace PrimeNumbers
         //}
         //static public bool IsPrime(int number)
         //{
-        //    return number%2 != 0;
+        //    return number % 2 != 0;
         //}
         //static public bool IsPrime(int number)
         //{

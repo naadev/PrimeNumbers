@@ -55,5 +55,25 @@ namespace PrimeNumbers
         {
             Assert.True(PrimeNumber.IsPrime(11));
         }
+        [Fact]
+        public void _12_is_prime()
+        {
+            Assert.False(PrimeNumber.IsPrime(12));
+        }
+        [Theory]
+        [InlineData(02, true)]
+        [InlineData(03, true)]
+        [InlineData(04, false)]
+        [InlineData(05, true)]
+        [InlineData(06, false)]
+        [InlineData(07, true)]
+        [InlineData(08, false)]
+        [InlineData(09, false)]
+        [InlineData(10, false)]
+        [InlineData(11, true)]
+        public void IsThisAPrimeNumber(int number, bool result)
+        {
+            Assert.True(result == PrimeNumber.IsPrime(number));
+        }
     }
 }

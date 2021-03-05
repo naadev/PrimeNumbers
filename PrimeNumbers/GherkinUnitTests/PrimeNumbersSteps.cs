@@ -12,16 +12,14 @@ namespace PrimeNumbers.GherkinUnitTests
         public void GivenANumber(int isThatNumberPrime)
         {
             Number = isThatNumberPrime;
+            IsPrime = PrimeNumber.IsPrime(Number.Value);
         }
 
         bool? IsPrime { get; set; }
         [When(@"I check whether is prime or not")]
         public void WhenICheckWhetherIsPrimeOrNot()
         {
-            if (Number.HasValue)
-            {
-                IsPrime = PrimeNumber.IsPrime(Number.Value);
-            }
+            IsPrime = (Number.HasValue && IsPrime.HasValue) ? PrimeNumber.IsPrime(Number.Value) : null;
         }
         
         [Then(@"the operation result shall be '(.*)'")]
@@ -31,5 +29,16 @@ namespace PrimeNumbers.GherkinUnitTests
             Assert.NotNull(IsPrime);
             Assert.True(isTrue == IsPrime.Value,$"Number {Number.Value} was {(isTrue ? string.Empty : "not")} expected to be prime");
         }
+        [Then(@"the number is prime")]
+        public void ThenTheNumberIsPrime()
+        {
+            ThenTheOperationResultShallBe(true);
+        }
+        [Then(@"the number is not prime")]
+        public void ThenTheNumberIsNotPrime()
+        {
+            ThenTheOperationResultShallBe(false);
+        }
+
     }
 }

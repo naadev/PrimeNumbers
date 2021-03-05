@@ -1,0 +1,553 @@
+[
+  {
+    "description": "\tAs a SW Developer,\n\tI want to have an operation\n\treturning whether a number is prime or not",
+    "keyword": "Feature",
+    "name": "PrimeNumbers",
+    "line": 1,
+    "id": "primenumbers",
+    "tags": [],
+    "uri": "features/PrimeNumbers.feature",
+    "elements": [
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '02'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'true'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '03'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'true'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '04'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'false'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '05'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'true'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '06'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'false'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '07'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'true'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '08'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'false'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '09'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'false'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '10'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'false'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "primenumbers;detecting-a-number-is-prime",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Detecting a number is prime",
+        "tags": [
+          {
+            "name": "@PrimeNumbers",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "a number '11'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I check whether is prime or not",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the operation result shall be 'true'",
+            "match": {
+              "location": "features/feature_steps/PrimeNumberSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
