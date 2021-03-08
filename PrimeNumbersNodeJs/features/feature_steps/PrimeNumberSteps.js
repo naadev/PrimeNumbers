@@ -13,9 +13,7 @@ When('I check whether is prime or not', function () {
     isPrimerOrNot = DetectPrimeNumber(number);
 });
 
-
 Then('the operation result shall be {string}', function (trueOrFalse) {
-    console.log(trueOrFalse + ' ' + isPrimerOrNot + ' ' + (isPrimerOrNot == trueOrFalse));
     var isTrueOrFalse = (trueOrFalse == 'true')
     expect(isPrimerOrNot).to.be.equal(isTrueOrFalse);
 });
